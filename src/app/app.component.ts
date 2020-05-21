@@ -3,7 +3,7 @@ import { DataService } from './service/data.service';
 
 @Component({
   selector: 'app-root',
-  template: `<div>Hello {{(nameMessage | async).Name}}</div>`,
+  template: `<div>Now {{(nameMessage | async).Name}}</div>`,
 })
 export class AppComponent  {
 
