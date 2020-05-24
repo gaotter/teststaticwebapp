@@ -17,10 +17,6 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     steps:
-    -  uses: actions/checkout@v2
-       with:
-          package-manager: npm
-          command: build
     - uses: actions/checkout@v2
     - name: Build And Deploy
       id: builddeploy
