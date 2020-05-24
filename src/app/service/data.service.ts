@@ -12,6 +12,6 @@ export class DataService {
   }
 
   getName():Observable<any> {
-    return this.http.get('/api/mgmhellow', {params:{name:'morten'}});
+    return this.http.get('/api/testdataloader', {params:{name:'morten'}});
   }
 }
